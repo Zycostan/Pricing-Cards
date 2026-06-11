@@ -1,0 +1,36 @@
+.site_head {
+    display: flex;
+    justify-content: center;
+    padding: 3.5rem 5rem;
+}
+
+.price_card_container {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    height: auto;
+    width: auto;
+    gap: 10px;
+}
+
+.price_card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
+    font-size: 18px;
+}
+
+.price_card section {
+    align-self: flex-start;
+    margin-top: 1rem;
+}
+
+#basic, #pro, #bus, .price_card {
+    outline: auto;
+    display: flex;
+    justify-content: center;
+}
+
+#basic, #pro, #bus {
+    width: 33.33%;
+    height: 100%;
+    border-radius: 25px;
+}
